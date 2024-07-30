@@ -42,7 +42,6 @@ export default function SellerDashboard() {
 }
 "use client";
 import { Bar } from "react-chartjs-2";
-import Chart from "chart.js/auto";
 import SidebarSeller from "../../layout/seller/page.js";
 
 export default function SellerDashboard() {
