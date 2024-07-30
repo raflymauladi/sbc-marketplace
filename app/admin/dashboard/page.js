@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import { Bar } from "react-chartjs-2";
-import Chart from "chart.js/auto";
+
 import SidebarSeller from "../../layout/seller/page.js";
 
 export default function SellerDashboard() {
@@ -43,8 +41,6 @@ export default function SellerDashboard() {
   );
 }
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import { Bar } from "react-chartjs-2";
 import Chart from "chart.js/auto";
 import SidebarSeller from "../../layout/seller/page.js";
