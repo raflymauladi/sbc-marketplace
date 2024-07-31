@@ -29,13 +29,13 @@ export default function Graphics() {
     ],
   };
   return (
-    <main class="flex justify-center flex-col items-center h-screen w-screen">
-      <div class="flex w-full h-full gap-4">
-        <div class="bg-[#87CEEB] h-full w-2/12 flex flex-col gap-4">
+    <main className="flex justify-center flex-col items-center h-screen w-screen">
+      <div className="flex w-full h-full gap-4">
+        <div className="bg-[#87CEEB] h-full w-2/12 flex flex-col gap-4">
           <SidebarSeller value="2" />
         </div>
-        <p class="text-2xl font-black mb-4 pt"> Data Order</p>{" "}
-        <table class="table-fixed">
+        <p className="text-2xl font-black mb-4 pt"> Data Order</p>{" "}
+        <table className="table-fixed">
           <thead>
             <tr>
               <th>No</th>
@@ -61,7 +61,7 @@ export default function Graphics() {
             </tr>
           </tbody>
         </table>
-        <table class="table-fixed"></table>
+        <table className="table-fixed"></table>
       </div>
     </main>
   );
